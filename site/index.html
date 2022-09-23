@@ -1,12 +1,123 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>
-            Hello Bliksem!!
-        </title>
-    </head>
-    <body>
-        <h1>Hello jou Bliksem...</h1>
-        <h2>Jy is moer slim!!!</h2>
-    </body>
+  <title>
+    HTML is moer maklik!
+  </title>
+  <style>
+    *{
+      box-sizing: border-box;
+    }
+    #R{
+      color: red;
+      font-size: large;
+    }
+    #B{
+      color: blue;
+      font-size: xx-large;
+    }
+    #G{
+      color: green;
+      font-size: x-large;
+    }
+    #col_Cont{
+      background-color: rgb(0, 255, 166);
+      color: black;
+      width: 90%;          
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      height: 100px;
+      line-height: 100px;
+      border-radius: 10px;
+    }    
+    #box {
+      background-color: rgb(43, 71, 230);
+      padding: 10px;
+      border: 5px groove gray;      
+      margin: 35px;
+      overflow: auto;
+      border-radius: 15px;
+      line-height: 50px;
+      text-align: center;
+      width: 500px;   
+    }
+    #square{
+      background-color: coral;
+      border: 2px solid black;
+      width: 50px;
+      height: 50px;
+      position: absolute;
+      bottom: 0;
+      left: 410px;          
+    }
+    #square-text{
+      width: 50px;
+      height: 50px;
+      text-align: center;
+      line-height: 50px;
+    }
+    ul{
+      position: relative;
+    }
+
+    @media (min-width:600px) {
+      .col-1, .col-2, .col-3, .col-4
+      {
+          border: 2px solid black;
+          float: left;
+          border-radius: 10px;
+          margin: 2px;
+          
+      }
+      .col-1
+      {
+        width: 15%;
+      }
+      .col-2
+      {
+        width: 25%;
+      }
+      .col-3
+      {
+        width: 30%;
+      }
+      .col-4
+      {
+        width: 50%;
+      }
+
+    }
+    .row{
+      width: 100%;
+    }
+
+  </style>
+  <body>
+    <h1 id="box">First HTML and CSS Program</h1>
+    <h2>Testing my code for the fist time in the browser...</h2>
+    <p>
+      Hello HTML hierdie is my eerste probeerslag om HTML the Program...
+    </p>
+    <p>
+      Testing P 2
+    </p>
+    <ul>
+      <li id="R">Tiaan</li>
+      <li id="G">Is</li>
+      <li id="B">Slim</li>
+      <section id="square">
+        <div id="square-text">
+            Hello
+        </div>        
+      </section>
+    </ul>
+    
+    <div class="row">
+      <div class="col-1"><p id="col_Cont">Colum 1</p></div>
+      <div class="col-1"><p id="col_Cont">Colum 2</p></div>
+      <div class="col-1"><p id="col_Cont">Colum 3</p></div>
+      <div class="col-1"><p id="col_Cont">Colum 4</p></div> 
+    </div>
+    
+  </body>
 </html>
