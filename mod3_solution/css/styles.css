@@ -6,6 +6,12 @@ body{
     color: white;
     padding: auto;
 }
+.navbar-brand{
+    text-align: left;
+}
+#nav-bar{
+    margin: 0;
+}
 #nav-list{
     background-color:whitesmoke;
     margin: 0;
